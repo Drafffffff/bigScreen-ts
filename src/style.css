@@ -1,0 +1,73 @@
+body {
+  padding: 0;
+  margin: 0;
+  width: 1680px;
+  height: 1008px;
+  /* overflow: hidden; */
+}
+body > * {
+  user-select: none;
+}
+#app {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /* text-align: center; */
+  color: #2c3e50;
+  max-width: 1680px;
+  max-height: 1008px;
+  width: 1680px;
+  height: 1008px;
+}
+#bgImage {
+  position: absolute;
+  max-width: 1680px;
+  max-height: 1008px;
+  width: 1680px;
+  height: 1008px;
+  top: 0;
+  left: 0;
+}
+#bgImage2 {
+  position: absolute;
+  max-width: 1680px;
+  max-height: 1008px;
+  width: 1680px;
+  height: 1008px;
+  top: 0;
+  left: 0;
+  z-index: 2;
+}
+.canvasWordn {
+  font-size: 3rem;
+  position: absolute;
+  line-height: 3rem;
+  font-weight: 800;
+  color: #ffbcdb;
+  z-index: 1;
+}
+.canvasWordr {
+  font-size: 3rem;
+  position: absolute;
+  line-height: 3rem;
+  font-weight: 800;
+  color: #4127e8;
+  z-index: 1;
+}
+
+.btn1 {
+  position: absolute;
+  width: 100px;
+  height: 50px;
+  left: 200px;
+  top: 200px;
+  
+}
+.cateTitle {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 355px;
+  height: 89px;
+}
+
