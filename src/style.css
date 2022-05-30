@@ -7,6 +7,7 @@ body {
 }
 body > * {
   user-select: none;
+  cursor: ew-resize;
 }
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
@@ -43,7 +44,7 @@ body > * {
   position: absolute;
   line-height: 3rem;
   font-weight: 800;
-  color: #ffbcdb;
+  color: #fc95c5;
   z-index: 1;
 }
 .canvasWordr {
@@ -61,7 +62,6 @@ body > * {
   height: 50px;
   left: 200px;
   top: 200px;
-  
 }
 .cateTitle {
   position: absolute;
@@ -71,3 +71,78 @@ body > * {
   height: 89px;
 }
 
+#test {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 300px;
+  height: 110px;
+  border: red 1px solid;
+  transform: translateX(570px) translateY(50px);
+  display: none;
+}
+
+#test2 {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 300px;
+  height: 110px;
+  border: red 1px solid;
+  transform: translateX(1040px) translateY(50px);
+  display: none;
+}
+.wordTitle {
+  position: absolute;
+  font-size: 7rem;
+  top: 0;
+  left: 0;
+}
+#word1 {
+  top: 30px;
+  left: 570px;
+  width: 300px;
+  height: 7rem;
+  text-align: center;
+  font-weight: 800;
+  color: #fc95c5;
+  z-index: 3;
+}
+#word2 {
+  top: 30px;
+  left: 1040px;
+  width: 300px;
+  height: 7rem;
+  text-align: center;
+  font-weight: 800;
+  color: #4127e8;
+  z-index: 3;
+}
+@font-face {
+  font-family: "wordnum";
+  src: url("/font/Beatrice\ Display\ Light.otf");
+}
+.wordnum {
+  font-family:"wordnum" ;
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 6rem;
+  /* border: red 1px solid; */
+  /* width: 78px; */
+  top: 250px;
+  font-weight: lighter;
+
+}
+
+#join {
+  left: 45px;
+}
+
+#new {
+  left: 590px;
+}
+
+#act {
+  left: 1145px;
+}
